@@ -1,0 +1,17 @@
+.vagrant
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+.zero-knife.rb
+.idea
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+# IntelliJ
+*.iml
