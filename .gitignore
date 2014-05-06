@@ -5,13 +5,16 @@
 \#*#
 .*.sw[a-z]
 *.un~
-.zero-knife.rb
-.idea
+/cookbooks
 
 # Bundler
-Gemfile.lock
 bin/*
 .bundle/*
 
-# IntelliJ
+# intellij idea
 *.iml
+
+# eclipse
+*.project
+.kitchen/
+.kitchen.local.yml

@@ -1,0 +1,17 @@
+DEPENDENCIES
+  balanced-mongodb
+    path: .
+    metadata: true
+  mongodb
+    git: git://github.com/edelight/chef-mongodb.git
+    revision: 202ed123084081ea38bbfffa8fbea20c7a62212c
+    ref: 202ed12
+
+GRAPH
+  apt (2.3.10)
+  balanced-mongodb (0.1.0)
+    mongodb (~> 0.13.2)
+  mongodb (0.13.2)
+    apt (>= 1.8.2)
+    yum (>= 0.0.0)
+  yum (3.2.0)
